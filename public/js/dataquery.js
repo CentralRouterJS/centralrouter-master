@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             var servicesCell = nrow.insertCell(2);
             var countryCell = nrow.insertCell(3);
 
-            snameCell.innerHTML = server.domain;
+            snameCell.innerHTML = server.domainLink;
             latencyCell.innerHTML = "N/A";
             servicesCell.innerHTML = server.interfaces;
             countryCell.innerHTML = "N/A";
