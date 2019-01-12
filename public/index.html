@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CentralRouter Public ServerList</title>
+		<link rel="stylesheet" href="/css/styles.css">
+	</head>
+	<body>
+		<div class="mainContainer">
+			<h1 style="text-align:center; color:#999">CentralRouter Public Serverlist</h1>
+			<input type="text" id="search" onkeyup="searchFunction()" placeholder="Search servers"><br>
+			<table id="table">
+                <tr>
+					<th>Servername</th>
+					<th>Latency</th>
+					<th>Services</th>
+					<th>Hosting country</th>
+				</tr>
+			</table>
+		</div>
+
+		<script type="text/javascript" src="/js/dataquery.js"></script>
+		<script type="text/javascript" src="search.js"></script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+version: "2"
+services:
+  app:
+    container_name: centralrouter-master
+    restart: always
+    build: .
+    ports:
+      - "14886:14886"
+      - "3000:3000"
+networks:
+  default:
+    external:
+      name: centralrouter-network
